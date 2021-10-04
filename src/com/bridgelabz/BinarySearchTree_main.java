@@ -22,6 +22,8 @@ public class BinarySearchTree_main {
         root = bst.insert(root, 67);
 
         bst.print(root);
+        System.out.println(bst.nodePresent(root, 63));
+
 
     }
 }
